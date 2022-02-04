@@ -48,7 +48,7 @@ export class ProductInformationForm extends Component {
                         </FormGroup>
 
 
-                        { /*this is for sn and lot selcection radio button forgroup*/}
+                        { /*this is for sn and lot selection radio button for group*/}
                         <FormGroup tag="fieldset">
                             <legend>
                                 Select SN or LOT
@@ -95,7 +95,7 @@ export class ProductInformationForm extends Component {
                         </FormGroup>
 
                     <Button color="primary">
-                            Submmit
+                            Submit
                     </Button>
                     </Form>
 

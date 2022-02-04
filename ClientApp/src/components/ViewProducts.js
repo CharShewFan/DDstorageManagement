@@ -31,12 +31,12 @@ export class ViewProduct extends Component {
 
                     <FormGroup check inline>
                         
-                        <Input type="checkBox" id="snSearch" type="checkbox" />
+                        <Input type ="checkBox" id="snSearch" />
                         <Label for="snSearch" check>SN</Label>
                     </FormGroup>
 
                     <FormGroup check inline>      
-                        <Input type="checkBox" id="LOTSearch" type="checkbox" />
+                        <Input type ="checkBox" id="LOTSearch"  />
                         <Label for="snSearch" check>LOT</Label>
                     </FormGroup>
 
@@ -44,6 +44,8 @@ export class ViewProduct extends Component {
                         <Label for="locationSearch" check>Location</Label>
                         <Input type="text" id="locationSearch" />
                     </FormGroup>
+
+
                         
                 </Form>
 
